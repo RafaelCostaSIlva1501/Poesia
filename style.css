@@ -6,10 +6,7 @@
     box-sizing: border-box;
 }
 
-body{
-    height: 100%;
-    width: 100%;
-    
+body{  
     color: #fae6cf;
     font-size: 1em;
     font-weight: lighter;
@@ -20,7 +17,7 @@ body{
 div{
     padding: 10px 20px;
     height: 100%;
-    background: black url('imagens/flores-keke.jpeg')  no-repeat fixed;
+    background: black url('imagens/flores-keke.jpeg') no-repeat fixed;
     background-size: cover;
     
 }
