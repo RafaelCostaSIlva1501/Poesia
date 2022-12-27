@@ -11,7 +11,7 @@ html, body{
 }
 
 header{
-    background-color: black;
+    background-color: #17180f;
     color: white;
     text-align: center;
 }
@@ -37,26 +37,40 @@ a:hover{
 
 section{
     padding-top: 10vh;
-    padding-bottom: 10vh; 
-    line-height: 2em;
+    padding-bottom: 10vh;
+    line-height: 3em;
     padding-left: 25px;
 }
 
 section.normal{
-    background-color: rgb(255, 255, 255);
+    background-color:#F28907;
     color: rgb(0, 0, 0);
 }
 
 section.imagem{
     background-color: rgb(85, 85, 85);
     color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.767) ;
+    background-attachment: fixed;
 }
 
 section.imagem > p{
+    display: inline-block;
     width: 400px;
-    background-color: rgba(0, 0, 0, 0.281);
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 10px;
+    
 }
 
+section#img01{
+    background-image:url('imagens/flores-keke.jpeg') ;
+}
+
+section#img02{
+    background-image: url('imagens/margaridas-keke.jpeg');
+}
 
 footer{
     background-color: black;
