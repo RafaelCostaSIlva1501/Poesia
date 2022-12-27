@@ -43,7 +43,7 @@ section{
 }
 
 section > p {
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 section.normal{
@@ -62,9 +62,9 @@ section.imagem{
 
 section.imagem > p{
     display: inline-block;
-    width: 400px;
+    width: 500px;
     background-color: rgba(0, 0, 0, 0.507);
-    padding: 10px;
+    padding: 7px;
     
 }
 
