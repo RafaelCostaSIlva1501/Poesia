@@ -38,8 +38,12 @@ a:hover{
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 3em;
-    padding-left: 25px;
+    line-height: 2em;
+    padding-left: 20px;
+}
+
+section > p {
+    font-size: 2vw;
 }
 
 section.normal{
