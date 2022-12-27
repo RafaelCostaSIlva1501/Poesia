@@ -41,6 +41,9 @@ section{
     line-height: 2em;
     padding-left: 20px;
 }
+section > p{
+    font-size: 1.6em;
+}
 
 section.normal{
     background-color:#F28907;
@@ -60,7 +63,6 @@ section.imagem > p{
     width: 600px;
     background-color: rgba(0, 0, 0, 0.596);
     padding: 10px;
-    
 }
 
 section#img01{
