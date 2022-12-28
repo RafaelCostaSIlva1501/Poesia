@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 html, body{
@@ -39,14 +40,19 @@ section{
     padding-top: 15vh;
     padding-bottom: 15vh;
     line-height: 2em;
-    padding-left: 20px;
+    padding-left: 15px;
 }
-section > p{
-    font-size: 1.7vw;
+section.normal > p{
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 20px;
 }
 
+section > p{
+    font-size: 1.5em;
+}
 section > h1{
-    font-size: 2vw;
+    font-size: 1.8em;
 }
 
 section.normal{
@@ -66,7 +72,7 @@ section.imagem{
 section.imagem > p{
     width: 600px;
     background-color: rgba(0, 0, 0, 0.596);
-    padding: 10px;
+    padding: 20px;
 }
 
 section#img01{
@@ -78,7 +84,8 @@ section#img02{
 }
 
 footer{
-    background-color: black;
+    color: white;
+    background-color: #17180f;
     text-align: center;
     padding: 10px;
 }
