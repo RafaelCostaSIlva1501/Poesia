@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-size: 1.2em;
 }
 
 html, body{
@@ -46,13 +47,6 @@ section.normal > p{
     width: 600px;
     background-color: rgba(0, 0, 0, 0);
     padding: 20px;
-}
-
-section > p{
-    font-size: 1.5em;
-}
-section > h1{
-    font-size: 1.8em;
 }
 
 section.normal{
