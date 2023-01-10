@@ -3,12 +3,20 @@
 *{
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    font-size: 26px;
 }
 
 html, body{
+    background-color: rgb(182, 182, 182);
     min-height: 100vh;
-    background-color: darkgray;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
 }
 
 header{
@@ -18,67 +26,32 @@ header{
 }
 
 header > h1{
-    padding-top: 7px;
+    padding-top: 15px;
     font-variant: small-caps;
 }
 
 header > p{
-    padding-bottom: 15px;
-}
-
-a{
-    color: white;
-    text-decoration: none;
-    font-weight: bolder;
-}
-
-a:hover{
-    text-decoration: underline;
+    padding-bottom: 25px;
 }
 
 section{
-    padding-top: 15vh;
-    padding-bottom: 15vh;
-    line-height: 2em;
-    padding-left: 15px;
-}
-section.normal > p{
-    width: 600px;
-    background-color: rgba(0, 0, 0, 0);
-    padding: 20px;
+    padding: 10vh;
+    line-height: 1.2em;
 }
 
-section.normal{
-    background-color:#F28907;
-    color: rgb(0, 0, 0);
+.normal{
+    background-color: #F28907;
 }
 
-section.imagem{
-    background-color: rgb(85, 85, 85);
-    color: white;
+.imagem{
     background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.767) ;
-    background-attachment: fixed;
 }
 
-section.imagem > p{
-    width: 600px;
-    background-color: rgba(0, 0, 0, 0.596);
-    padding: 20px;
+#img1{
+    background-image: url('imagens/flores-keke.jpeg');
 }
 
-section#img01{
-    background-image:url('imagens/flores-keke.jpeg') ;
-}
-
-section#img02{
+#img2{
     background-image: url('imagens/margaridas-keke.jpeg');
 }
 
-footer{
-    color: white;
-    background-color: #17180f;
-    text-align: center;
-    padding: 10px;
-}
