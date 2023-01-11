@@ -26,12 +26,12 @@ header{
 }
 
 header > h1{
-    padding-top: 15px;
+    padding-top: 7px;
     font-variant: small-caps;
 }
 
 header > p{
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 
 section{
@@ -41,10 +41,23 @@ section{
 
 .normal{
     background-color: #F28907;
+    color: #17180f;
 }
 
-.imagem{
+.img{
+    box-shadow: inset 6px 6px 13px 0px #17180f77;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img > p{
+    background-color: #17180fa8;
+    color: white;
+    padding: 20px;
+    width: 60vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 #img1{
@@ -52,6 +65,20 @@ section{
 }
 
 #img2{
+    background-image: url('imagens/gris-keke-2.jpeg');
+}
+
+#img3{
     background-image: url('imagens/margaridas-keke.jpeg');
+}
+
+footer{
+    background-color: #17180f;
+    color: white;
+    text-align: center;
+}
+
+footer > p{
+    padding: 5px;
 }
 
